@@ -25,13 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // const Text(
-              //   "Login",
-              //   style: TextStyle(
-              //     fontWeight: FontWeight.w800,
-              //     fontSize: 25,
-              //   ),
-              // ),
+              const Text(
+                "Login",
+                style: TextStyle(
+                  fontWeight: FontWeight.w800,
+                  fontSize: 25,
+                ),
+              ),
               const SizedBox(height: 16),
               InkWell(
                 onTap: () async {
